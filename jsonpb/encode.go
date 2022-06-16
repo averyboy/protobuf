@@ -545,7 +545,7 @@ func (w *jsonWriter) marshalSingularValue(fd protoreflect.FieldDescriptor, v pro
 				return nil
 			}
 		case int64, uint64:
-			w.write(fmt.Sprintf(`"%d"`, v.Interface()))
+			w.write(fmt.Sprintf(`%d`, v.Interface()))
 			return nil
 		}
 
