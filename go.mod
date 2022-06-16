@@ -1,5 +1,5 @@
 // Deprecated: Use the "google.golang.org/protobuf" module instead.
-module github.com/aveyrboy/protobuf
+module github.com/averyboy/protobuf
 
 go 1.9
 
