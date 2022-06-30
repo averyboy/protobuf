@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/averyboy/protobuf/proto"
 	"google.golang.org/protobuf/encoding/protojson"
 	protoV2 "google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
@@ -545,7 +545,7 @@ func (w *jsonWriter) marshalSingularValue(fd protoreflect.FieldDescriptor, v pro
 				return nil
 			}
 		case int64, uint64:
-			w.write(fmt.Sprintf(`"%d"`, v.Interface()))
+			w.write(fmt.Sprintf(`%d`, v.Interface()))
 			return nil
 		}
 

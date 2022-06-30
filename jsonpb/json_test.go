@@ -14,17 +14,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
+	"github.com/averyboy/protobuf/proto"
+	"github.com/averyboy/protobuf/ptypes"
 
-	pb2 "github.com/golang/protobuf/internal/testprotos/jsonpb_proto"
-	pb3 "github.com/golang/protobuf/internal/testprotos/proto3_proto"
-	descpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
-	anypb "github.com/golang/protobuf/ptypes/any"
-	durpb "github.com/golang/protobuf/ptypes/duration"
-	stpb "github.com/golang/protobuf/ptypes/struct"
-	tspb "github.com/golang/protobuf/ptypes/timestamp"
-	wpb "github.com/golang/protobuf/ptypes/wrappers"
+	pb2 "github.com/averyboy/protobuf/internal/testprotos/jsonpb_proto"
+	pb3 "github.com/averyboy/protobuf/internal/testprotos/proto3_proto"
+	descpb "github.com/averyboy/protobuf/protoc-gen-go/descriptor"
+	anypb "github.com/averyboy/protobuf/ptypes/any"
+	durpb "github.com/averyboy/protobuf/ptypes/duration"
+	stpb "github.com/averyboy/protobuf/ptypes/struct"
+	tspb "github.com/averyboy/protobuf/ptypes/timestamp"
+	wpb "github.com/averyboy/protobuf/ptypes/wrappers"
 )
 
 var (
